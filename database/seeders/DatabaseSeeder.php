@@ -24,10 +24,10 @@ class DatabaseSeeder extends Seeder
         Category::factory(20)->create();
         Product::factory(50)->create();
         $user = User::create([
-            'firstName'=>'omar',
-            'lastName'=>'konan',
+            'firstName'=>'admin',
+            'lastName'=>'admin',
             'role'=>'Admin',
-            'phoneNumber'=>'0981562320',
+            'phoneNumber'=>'0911111111',
             'password'=>Hash::make('12345678')
         ]);
 
